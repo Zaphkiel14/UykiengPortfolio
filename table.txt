@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title></title></head>
+<body>
+<table boarder="1">
+	
+	<tr>
+		<th>1</th>
+		<th>2</th>
+	</tr>
+	<tr>
+	<td>a</td>
+	<td>b</td>
+	</tr>
+</table>
+</body>
+</html>

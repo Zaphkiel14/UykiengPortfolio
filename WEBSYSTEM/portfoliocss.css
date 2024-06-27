@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.headerbar {
+    display: flex; /* Use Flexbox */
+    background-color: green;
+}
+
+.header {
+    background-color: blue;
+    height: 70px;
+    width: 60%;
+    order: 1;
+}
+
+.navigation {
+    background-color: red;
+    width: 40%;
+    height: 70px;
+    order: 2;
+}
+
+
+.logo{
+    background-color: white;
+    border-radius: 40px;
+    width:40%;  
+}
+.navi{
+    background-color: white;
+    position: absolute;
+    right: 0;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color:  black;
+}
+
+.body{
+    background-color: green;
+    display: inline-block;
+    width: 100%;
+    height: max-content ;
+}
+.content{
+    background-color: white;
+}

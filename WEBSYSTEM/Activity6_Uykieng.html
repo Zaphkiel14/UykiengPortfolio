@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tables</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            color: #0073e6;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #0073e6;
+            color: white;
+            font-size: 1.2em;
+        }
+        td {
+            font-size: 1em;
+            color: #333;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:nth-child(odd) {
+            background-color: #fff;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <h1>ABS-CBN Schedule 2023</h1>
+    <table>
+        <tr>
+            <th>SUNDAY</th>
+            <th>MONDAY</th>
+            <th>TUESDAY</th>
+            <th>WEDNESDAY</th>
+            <th>THURSDAY</th>
+            <th>FRIDAY</th>
+        </tr>
+        
+        <tr>
+            <td>ASAP Natin 'To <br>12:00PM</td>
+            <td colspan="5">It's Showtime <br>12:00PM</td>
+        </tr>
+        <tr>
+            <td>FPJ Da King<br>2:00PM</td>
+            <td rowspan="2" colspan="5">Pira-Pirasong Paraiso <br>3:00PM</td>
+        </tr>
+        <tr>
+            <td>Nagaapoy Na Damdamin <br>3:50PM</td>
+        </tr>
+        <tr>
+            <td>Ipaglaban Mo<br>4:00PM</td>
+            <td colspan="5">Kapamilya Gold Hits <br>4:30PM</td>
+        </tr>
+        <tr>
+            <td rowspan="2">TV Patrol Weekend <br>5:30PM</td>
+            <td colspan="5">Minute To Win <br>5:55PM</td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="5">TV Patrol <br>6:30PM</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Everybody Sing <br>7:15PM</td>
+        </tr>
+        <tr>
+            <td colspan="5">FPJ's Batang Quiapo <br>8:00PM</td>
+        </tr>
+        <tr>
+            <td rowspan="2">I Can See Your Voice <br>8:45PM</td>
+            <td colspan="5">Can't Buy Me Love <br>8:45PM</td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="5">Senior High <br>9:20PM</td>
+        </tr>
+        <tr>
+            <td>iWantTFC Originals <br>9:45PM</td>
+        </tr>
+    </table>
+</body>
+</html>
